@@ -1,4 +1,14 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<table>
+  <thead>
+    <th sortable="logs" (sort)="onSort($event)">Logs</th>
+    <th sortable="status" (sort)="onSort($event)">status</th>
+    <th sortable="timestamp" (sort)="onSort($event)">Timestamp</th>
+  </thead>
+  <tbody *ngFor="let rows of logsData">
+    <tr *ngFor="let rows of logsData">
+      <td> {{rows.logs}} </td>
+      <td> {{rows.status}} </td>
+      <td> {{rows.timestamp}} </td>
+    </tr>
+  </tbody>
+</table>
