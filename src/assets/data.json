@@ -4,9 +4,24 @@
     "status": "success"
   },
   {
+    "logs": "Data Saved Successfully and uploaded in table with headers name, city and address Data Saved Successfully and uploaded in table with headers name, city and address",
+    "timestamp": "2/4/2020",
+    "status": "success"
+  },
+  {
     "logs": "Data contains ambuiguity causes truncation of text try appending multiple applications Data contains ambuiguity causes truncation of text try appending multiple applications",
     "timestamp": "1/1/2020",
     "status": "warning"
+  },
+  {
+    "logs": "Data contains ambuiguity causes truncation of text try appending multiple applications Data contains ambuiguity causes truncation of text try appending multiple applications",
+    "timestamp": "1/1/2020",
+    "status": "warning"
+  },
+  {
+    "logs": "unclosing tag in app.component.ts. expected /div at the end of block or expected new block unclosing tag in app.component.ts. expected /div at the end of block or expected new block",
+    "timestamp": "2/1/2020",
+    "status": "error"
   },
   {
     "logs": "unclosing tag in app.component.ts. expected /div at the end of block or expected new block unclosing tag in app.component.ts. expected /div at the end of block or expected new block",
